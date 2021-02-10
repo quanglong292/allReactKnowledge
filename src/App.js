@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import StateFull from "./components/StateFull.js";
+import StateLess from "./components/StateLess.js";
+import ExampleLayout from "./ExampleLayout/index.js";
+import DemoDataBiding from "./databinding/DemoDataBiding";
+import ShowRoomCar from "./showroomcars";
+import ListAndKeys from "./list-and-keys";
+import Login from "./login";
+import Props from "./props";
+import Glasses from "./glasses advance";
+import AppXucXacReDux from "./appxucxac redux";
+import UserManagement from "./userManager";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h2>Đã edit</h2> */}
+      {/* c1
+      <StateFull />
+      {/* c2 */}
+      {/* <Statefull></Statefull> */}
+      {/* <StateLess/> */}
+      {/* <ExampleLayout/> */}
+      {/* <DemoDataBiding/> */}
+      {/* <Login/> */}
+      {/* <ShowRoomCar/> */}
+      {/* <ListAndKeys/> */}
+      {/* <Props/> */}
+      {/* <Glasses/> */}
+      {/* <AppXucXacReDux/> */}
+      <UserManagement/>
     </div>
   );
 }
